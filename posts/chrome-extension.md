@@ -1,9 +1,11 @@
 ---
-title: "Two Forms of Pre-rendering"
-date: "2020-01-01"
+title: "Building my first chrome extension"
+date: "2021-01-19"
 ---
 
-Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
+For five pounds, half an hour of disappointment (the docs aren't that well maintained) and a short wait while it's reviewed, you can create your own chrome extension.
+
+<div class="shoutout">Hi</div>
 
 - **Static Generation** is the pre-rendering method that generates the HTML at **build time**. The pre-rendered HTML is then _reused_ on each request.
 - **Server-side Rendering** is the pre-rendering method that generates the HTML on **each request**.

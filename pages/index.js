@@ -13,13 +13,9 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hello, I’m <strong>Shu</strong>. I’m a software engineer and a
-          translator (English/Japanese). You can contact me on{' '}
-          <a href="https://twitter.com/chibicode">Twitter</a>.
-        </p>
-        <p>
-          (This is a sample website - you’ll be building a site like this in{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          Greetings, I’m <strong>Jacob</strong>. I’m a developer, creating open source software. Talk with me on{' '}
+          <a href="https://twitter.com/yes_jacob_">Twitter</a>, and code with me on <a href="https://github.com/jacobhq">GitHub</a>.{' '}
+          I’m coffee powered, so why not <a href="https://buymeacoffee.com/jem">buy me a coffee</a>.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>

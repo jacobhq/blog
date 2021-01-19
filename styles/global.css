@@ -6,6 +6,8 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
+  background-color: #0b3954;
+  color: #ececec;
 }
 
 * {
@@ -13,7 +15,7 @@ body {
 }
 
 a {
-  color: #0070f3;
+  color: #20fc8f;
   text-decoration: none;
 }
 
@@ -24,4 +26,12 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+}
+
+.shoutout {
+    padding: 10px;
+    background-color: #20fc8e70;
+    color: #20fc8f;
+    border: 1px solid #20fc8f;
+    border-radius: 4px;
 }
