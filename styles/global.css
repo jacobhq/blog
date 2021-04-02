@@ -35,3 +35,5 @@ img {
     border: 1px solid #20fc8f;
     border-radius: 4px;
 }
+
+@import 'global.css'
