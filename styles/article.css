@@ -4,3 +4,11 @@ code {
     font-size: 0.85rem;
     border-radius: 4px;
 }
+
+pre {
+    background-color: #00000040;
+    padding: 1rem;
+    max-width: 100%;
+    border-radius: 6px;
+    overflow: scroll;
+}
