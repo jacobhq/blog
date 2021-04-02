@@ -12,3 +12,11 @@ pre {
     border-radius: 6px;
     overflow: scroll;
 }
+
+pre code {
+    background: unset;
+    padding: unset;
+    font-size: unset;
+    border-radius: unset;
+}
+
