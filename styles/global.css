@@ -63,4 +63,5 @@ article img {
   background: #ffffff40;
 }
 
-@import 'article.css'
+@import 'article.css';
+@import 'prism.css';
