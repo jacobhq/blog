@@ -11,6 +11,7 @@ pre {
     max-width: 100%;
     border-radius: 6px;
     overflow: scroll;
+    overflow-y: visible;
 }
 
 pre code {
