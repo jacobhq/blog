@@ -52,3 +52,12 @@
 .lightText {
   color: #bbbbbb;
 }
+
+.icon {
+  margin-bottom: -2.5px;
+  opacity: 0.5;
+}
+
+.listItem:hover .icon {
+  opacity: 0.75;
+}
