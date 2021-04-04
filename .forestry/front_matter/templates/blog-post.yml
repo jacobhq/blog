@@ -10,5 +10,9 @@ fields:
 - type: datetime
   name: date
   label: Date written
+  default: now
+  hidden: true
+  config:
+    time_format: " "
 pages:
 - posts/signing-into-linux-with-a-usb-stick.md
