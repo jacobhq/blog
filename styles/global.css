@@ -54,13 +54,13 @@ article img {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #ffffff50;
+  background: #ffffff40;
   border-radius: 100px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #ffffff40;
+  background: #ffffff50;
 }
 
 @import 'article.css';
