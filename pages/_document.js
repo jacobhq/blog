@@ -10,11 +10,11 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link rel="stylesheet" href="/prism.css"/>
+          <link rel="stylesheet" href="https://blog.jacobhq.xyz/prism.css"/>
         </Head>
         <body>
           <Main />
-          <script src="/prism.js" />
+          <script src="https://blog.jacobhq.xyz/prism.js" />
           <NextScript />
         </body>
       </Html>
