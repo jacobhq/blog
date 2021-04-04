@@ -4,7 +4,9 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Post title
+  config:
+    required: true
 - type: datetime
   name: date
-  label: date
+  label: Date written
