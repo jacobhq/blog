@@ -53,11 +53,32 @@
   color: #bbbbbb;
 }
 
-.icon {
+.externalLink {
   margin-bottom: -2.5px;
   opacity: 0.5;
 }
 
-.listItem:hover .icon {
+.listItem:hover .externalLink {
   opacity: 0.75;
+}
+
+.contact {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.contact a {
+  border: none;
+}
+
+.channel {
+  opacity: 0.75;
+  transition: all 0.3s ease;
+}
+
+.channel:hover {
+  opacity: 1;
 }

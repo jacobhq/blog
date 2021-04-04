@@ -5,7 +5,7 @@ import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
 import Icon from '@mdi/react'
-import { mdiOpenInNew } from '@mdi/js'
+import { mdiOpenInNew, mdiTwitter, mdiGithub } from '@mdi/js'
 
 export default function Home({ allPostsData }) {
   return (
@@ -21,11 +21,25 @@ export default function Home({ allPostsData }) {
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <ul className={utilStyles.contact}>
+          <li className={utilStyles.channel}>
+            <a href="https://github.com/jacobhq" target="_blank">
+              <Icon path={mdiGithub} size={1} />
+            </a>
+          </li>
+          <li className={utilStyles.channel}>
+            <a href="https://twitter.com/yes_jacob_" target="_blank">
+              <Icon path={mdiTwitter} size={1} />
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Projects</h2>
         <ul className={utilStyles.list}>
         <li className={utilStyles.listItem}>
             <a href="https://desica.uk/" target="_blank">
-              Desica <Icon path={mdiOpenInNew} size={1 + 'rem'} className={utilStyles.icon} />
+              Desica <Icon path={mdiOpenInNew} size={1 + 'rem'} className={utilStyles.externalLink} />
             </a>
             <br />
             <small className={utilStyles.lightText}>
@@ -34,7 +48,7 @@ export default function Home({ allPostsData }) {
           </li>
           <li className={utilStyles.listItem}>
             <a href="https://mac.now.sh/" target="_blank">
-              MacOS Website Clone <Icon path={mdiOpenInNew} size={1 + 'rem'} className={utilStyles.icon} />
+              MacOS Website Clone <Icon path={mdiOpenInNew} size={1 + 'rem'} className={utilStyles.externalLink} />
             </a>
             <br />
             <small className={utilStyles.lightText}>
