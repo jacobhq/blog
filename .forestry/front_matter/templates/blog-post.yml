@@ -10,3 +10,5 @@ fields:
 - type: datetime
   name: date
   label: Date written
+pages:
+- posts/signing-into-linux-with-a-usb-stick.md
