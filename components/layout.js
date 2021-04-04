@@ -29,25 +29,25 @@ export default function Layout({ children, home }) {
           <>
             <img
               src="https://avatars.githubusercontent.com/u/29145479"
-              className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
+              className={`${styles.headerHomeImage} ${utilStyles.borderCircle} ${utilStyles.noLine}`}
               alt={name}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1 className={`${utilStyles.heading2Xl} ${utilStyles.noLine}`}>{name}</h1>
           </>
         ) : (
           <>
-            <Link href="/">
-              <a>
+            <Link href="/" className={utilStyles.noLine}>
+              <a className={utilStyles.noLine}>
                 <img
                   src="https://avatars.githubusercontent.com/u/29145479"
-                  className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+                  className={`${styles.headerImage} ${utilStyles.borderCircle} ${utilStyles.noLine}`}
                   alt={name}
                 />
               </a>
             </Link>
             <h2 className={utilStyles.headingLg}>
               <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
+                <a className={`${utilStyles.colorInherit} ${utilStyles.noLine}`}>{name}</a>
               </Link>
             </h2>
           </>
@@ -55,9 +55,9 @@ export default function Layout({ children, home }) {
       </header>
       <main>{children}</main>
       {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
+        <div className={`${styles.backToHome} ${utilStyles.noLine}`}>
+          <Link href="/" className={utilStyles.noLine}>
+            <a className={utilStyles.noLine}>← Back to home</a>
           </Link>
         </div>
       )}

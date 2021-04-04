@@ -82,3 +82,7 @@
 .channel:hover {
   opacity: 1;
 }
+
+.noLine {
+  border: none !important;
+}
