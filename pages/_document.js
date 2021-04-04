@@ -9,7 +9,9 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head />
+        <Head>
+          <link rel="stylesheet" href="/prism.css"/>
+        </Head>
         <body>
           <Main />
           <script src="/prism.js" />
