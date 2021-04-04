@@ -7,12 +7,17 @@ fields:
   label: Post title
   config:
     required: true
-- type: datetime
-  name: date
+- name: date
+  type: datetime
   label: Date written
-  default: now
-  hidden: true
+  description: ''
   config:
-    time_format: " "
+    required: false
+    date_format: DD/MM/YYYY
+    time_format: 
+    display_utc: false
+    export_format: YYYY-MM-DD
+  hidden: true
+  default: now
 pages:
 - posts/signing-into-linux-with-a-usb-stick.md
