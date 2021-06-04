@@ -14,6 +14,9 @@ class MyDocument extends Document {
         </Head>
         <body>
           <Main />
+          <div className="overlay">
+            <div className="bg" />
+          </div>
           <script src="https://blog.jacobhq.xyz/prism.js" />
           <NextScript />
         </body>

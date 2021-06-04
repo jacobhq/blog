@@ -4,7 +4,7 @@
   font-weight: 800;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
-  color: #20fc8f;
+  color: #fff;
 }
 
 .headingXl {
@@ -13,7 +13,7 @@
   font-weight: 800;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
-  color: #20fc8f;
+  color: #fff;
 }
 
 .headingLg {
@@ -50,7 +50,7 @@
 }
 
 .lightText {
-  color: #bbbbbb;
+  color: #fff;
 }
 
 .externalLink {
