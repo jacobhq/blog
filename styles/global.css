@@ -7,7 +7,58 @@ body {
   line-height: 1.6;
   font-size: 18px;
   color: #fff;
+  transition: all 0.3s ease-in-out;
 }
+
+.dark {
+  background-color: black !important;
+  color: white !important;
+}
+
+button[data-light] {
+  color: white;
+}
+
+body.dark > button[data-dark] {
+  display: none;
+}
+
+button[data-light] {
+  display: none !important;
+}
+
+body.dark button[data-light] {
+  display: block !important;
+  animation: lightShow 0.3s ease-in-out;
+  animation-delay: 0.6s;
+}
+
+.themeer {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+}
+
+.full {
+  position: fixed;
+  top: 5px;
+  right: 45px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+}
+
+body.dark > .themeer, body.dark .full {
+  color: white !important;
+}
+
+.hidden {
+  display: none;
+}
+
 
 .bg {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1920' height='1080' viewBox='0 0 1920 1080' fill='none'%3E%3Ccircle cx='272.805' cy='-87.8019' r='928.805' fill='%23A239C5'/%3E%3Ccircle cx='2466.13' cy='7.02808' r='1214.03' fill='%235D4CBD'/%3E%3Ccircle cx='1252.2' cy='1787.97' r='1214.03' fill='%23FF481F'/%3E%3C/svg%3E");

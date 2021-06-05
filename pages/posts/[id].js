@@ -15,7 +15,7 @@ export class Comments extends Component {
       script.setAttribute("async", true);
       script.setAttribute("repo", "jacobhq/blog");
       script.setAttribute("issue-term", "pathname");
-      script.setAttribute( "theme", "photon-dark");
+      script.setAttribute( "theme", 'photon-dark');
       anchor.appendChild(script);
   }
 
