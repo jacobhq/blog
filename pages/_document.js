@@ -10,7 +10,6 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link rel="stylesheet" href="/prism.css" />
         </Head>
         <body id="body" class="light">
           <button class="themeer" onclick="dark()" data-dark>
@@ -31,7 +30,6 @@ class MyDocument extends Document {
           <div className="overlay">
             <div className="bg" />
           </div>
-          <script src="/prism.js" />
           <script src="/theme.js" />
           <NextScript />
         </body>
