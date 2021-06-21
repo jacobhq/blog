@@ -1,5 +1,17 @@
 import '../styles/global.css'
+import { ChakraProvider } from "@chakra-ui/react"
+import React, { useEffect } from "react";
+import Search from '../components/search'
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+
+function MyApp({ Component, pageProps, allPostsData }) {
+
+  return (
+    <ChakraProvider>
+      <Search />
+      <Component {...pageProps} />
+    </ChakraProvider>
+  )
 }
+
+export default MyApp
